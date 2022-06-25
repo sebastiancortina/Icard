@@ -1,12 +1,24 @@
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from './components/Home';
+import { ClientLayout } from './layouts';
+//import "./App.scss";
 
-function App() {
+export default function App() {
+
   return (
-    <div>
-      <h1>Hola Mundo</h1>
-      <button className='btn btn-primary'>click</button>
-    </div>
-  );
+    <ClientLayout>
+      <h1> hola mundo </h1>
+
+    </ClientLayout>
+  )
+
+
+
+
 }
 
-export default App;

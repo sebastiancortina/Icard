@@ -1,0 +1,11 @@
+// Clase padre
+.app{
+    background: green;
+
+    //clase hijo  & = .app
+    &__title{
+        color: red;
+    }
+
+
+}
